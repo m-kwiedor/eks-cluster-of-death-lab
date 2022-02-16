@@ -7,7 +7,7 @@
 * Turn off AWS managed temporary credentials
 * Close the Preferences tab
 
-![Cloud9 Disable IAM](eks/images/c9disableiam.png)
+![Cloud9 Disable IAM](images/c9disableiam.png)
 
 A new Terminal could be opened by using **Window** > **New Terminal** from the menu
 
@@ -31,7 +31,7 @@ We created an EKS Cluster ${PROJECT_ID} with a NodeGroup attached. On top of tha
 
 The frontend could be accessed by open the [Frontend Service](http://${FRONTEND_SERVICE}/)
 
-![Frontend Service](eks/images/crystal.svg)
+![Frontend Service](images/crystal.svg)
 
 You goal should be to show the Frontend Service Page when accessing the [Frontend Service](http://${FRONTEND_SERVICE}/) and seeing that traffic is going from and to each of the three AZ
 
